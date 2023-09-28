@@ -9,17 +9,27 @@ namespace NewApp.Models
 
         public void Input()
         {
-            System.Console.Write("Ma Nhan Vien : ");
-            MaNhanVien = Console.ReadLine();
+            try{
+                System.Console.Write("Ma Nhan Vien : ");
+                MaNhanVien = Console.ReadLine();
+            }catch(Exception ex)
+            {
+                System.Console.WriteLine("Co ngoai le xay ra");
+            }
             
             System.Console.Write("Ten Nhan Vien : ");
             TenNhanVien = Console.ReadLine();
             
+        try{
             System.Console.Write("Tuoi : ");
             Tuoi = Convert.ToInt32(Console.ReadLine());
             
             System.Console.Write("Luong : ");
             Luong = Convert.ToInt32(Console.ReadLine());
+        }catch(Exception ex)
+        {
+            System.Console.WriteLine("Co ngoai le xay ra");
+        }
             
         }
 
@@ -28,16 +38,6 @@ namespace NewApp.Models
             System.Console.WriteLine("--------------------------");
             System.Console.WriteLine(MaNhanVien + "-" + TenNhanVien + "-" + Tuoi + "-" + Luong + "USD");
 
-        }
-         try
-        {
-            Console.Write("Tuổi: ");
-            Age = int.Parse(Console.ReadLine());
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine("Lỗi: Tuổi phải là một số nguyên.");
-            Age = 0; // Gán giá trị mặc định
         }
     }
 }
