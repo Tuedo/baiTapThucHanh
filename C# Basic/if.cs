@@ -6,11 +6,18 @@ namespace MyApplication
   {
     static void Main(string[] args)
     {
-      int x = 20;
-      int y = 18;
-      if (x > y)
+      
+      if (x = 10) 
       {
-        Console.WriteLine("x lon hon  y");
+        Console.WriteLine("Do duc tue");
+      } 
+      else if (x <10) 
+      {
+        Console.WriteLine("2121050190");
+      } 
+      else 
+      {
+        Console.WriteLine("Tue dep trai");
       }
     }
   }
