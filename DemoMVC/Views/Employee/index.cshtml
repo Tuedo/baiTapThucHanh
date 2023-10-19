@@ -1,0 +1,17 @@
+<form asp-action="Index">
+
+    <label>Họ và Tên:</label><br>
+    <input type="text" name="HoTen" required placeholder="Enter họ và tên"><br>
+    <label>Lương cơ bản:</label><br>
+    <input type="text" name="LuongCoBan" required placeholder="Enter lương cơ bản"><br>
+    <label>Hệ số lương:</label><br>
+    <input type="text" name="HeSoLuong" required placeholder="Enter hệ số lương"><br>
+    <label>Phụ cấp:</label><br>
+    <input type="text" name="PhuCap" required placeholder="Enter phụ cấp"><br>
+
+    <br>
+
+    <input type="submit" value="Save">
+</form> 
+
+<p>@ViewBag.ThongBao</p>
