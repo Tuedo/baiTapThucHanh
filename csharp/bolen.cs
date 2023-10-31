@@ -1,8 +1,9 @@
+//ho va ten do duc tue mssv 2121050190
 using System;
 
-namespace bolen
+namespace csharp
 {
-  class Program
+  class bolen
   {
     static void Main(string[] args)
     {

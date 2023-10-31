@@ -1,6 +1,6 @@
 //ho va ten : Do Duc Tue Mssv 2121050190
 
-namespace if_else
+namespace csharp
 
 {
     class Program

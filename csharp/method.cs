@@ -1,5 +1,5 @@
 //ho va ten : Do Duc Tue
-namespace method
+namespace csharp
 {
     public class CS006
     { 

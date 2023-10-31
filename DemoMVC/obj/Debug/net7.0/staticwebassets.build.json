@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vsM8HHVAr7Rte6jh+fiMr5pC8MNnC6ItvAOvMkuJImU=",
+  "Hash": "iCDKYM3bXiCL3lGQ2Lj6dVY0O+ZCYfkj860AILUz/mk=",
   "Source": "DemoMVC",
   "BasePath": "_content/DemoMVC",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Hoc\\baiTapThucHanh\\DemoMVC\\wwwroot\\css\\w3.css",
+      "SourceId": "DemoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Hoc\\baiTapThucHanh\\DemoMVC\\wwwroot\\",
+      "BasePath": "_content/DemoMVC",
+      "RelativePath": "css/w3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\w3.css"
     },
     {
       "Identity": "D:\\Hoc\\baiTapThucHanh\\DemoMVC\\wwwroot\\favicon.ico",

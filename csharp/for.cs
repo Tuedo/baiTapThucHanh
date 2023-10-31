@@ -1,6 +1,6 @@
 //ho va ten Do Duc TUe mssv 2121050190
 
-namespace CS005_for_while
+namespace csharp
 {
     class Program
     {

@@ -1,7 +1,7 @@
 //ho va ten do duc tue mssv 2121050190
 
 
-namespace math
+namespace csharp
 {
     class Program
     {
