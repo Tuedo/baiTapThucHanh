@@ -35,6 +35,14 @@ namespace CS12_String {
         {
             string stringA =  "Xin chào,";
             string stringB = "các bạn!";
+
+            // Nối chuỗi
+            string s = String.Concat(stringA, stringB);
+            Console.WriteLine(s);
+
+             // Tạo chuỗi format
+            s = String.Format("Chào {0}, {0} ơi, hôm nay ngày {1} rồi!", "Nam", DateTime.Now.Day);
+            Console.WriteLine(s);
         
     }
 }
