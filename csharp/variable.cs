@@ -1,6 +1,6 @@
 // ho va ten : Do Duc Tue mssv 2121050190
 
-namespace variable
+namespace csharp
 {
     class Program
     {
