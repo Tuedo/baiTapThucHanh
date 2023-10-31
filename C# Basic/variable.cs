@@ -23,6 +23,26 @@ namespace variable
             char chooseAction = 'S' ;            //Khai báo biến kiểu ký tự
             string msgResult = "Kết quả giải:" ; // khai báo biến chuỗi
 
+
+             Console.WriteLine();                                                //Xuống dòng
+            Console.WriteLine();                                                //Xuống dòng
+            
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;                 //Đặt màu chữ
+            Console.WriteLine("XIN CHÀO - CHƯƠNG TRÌNH NHẬP XUẤT DỮ LIỆU");     //In dòng chữ
+            Console.ResetColor();                                               //Reset màu
+            
+            Console.Write("Giá trị biến so_pi là : ");                          //In dòng chữ
+            Console.WriteLine(so_pi);                                           //In giá trị biến
+            Console.WriteLine();                                                //Xuống dòng
+
+            int a = 123;
+            double b = 567.123;
+
+            Console.WriteLine("Biến a = {0}, biến b = {1}", a, b);
+
+            Console.WriteLine($"Biến a = {a}, biến b = {b} - tích là {a * b}");
+
+
  
             
             
