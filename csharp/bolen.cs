@@ -1,8 +1,8 @@
 using System;
 
-namespace csharp
+namespace bolen
 {
-  class bolen
+  class Program
   {
     static void Main(string[] args)
     {

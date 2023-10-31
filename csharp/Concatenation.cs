@@ -1,8 +1,8 @@
 using System;
 
-namespace MyApplication
+namespace csharp
 {
-  class Program
+  class Concatenation
   {
     static void Main(string[] args)
     {
