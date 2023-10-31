@@ -43,6 +43,18 @@ namespace CS12_String {
              // Tạo chuỗi format
             s = String.Format("Chào {0}, {0} ơi, hôm nay ngày {1} rồi!", "Nam", DateTime.Now.Day);
             Console.WriteLine(s);
+
+             // Chèn vào chuỗi
+            s = stringA.Insert(8, " tất cả");
+            Console.WriteLine(s);
+
+            // Pad
+            string s1 = "Abc";
+            string s2 = s1.PadLeft(6);        //  "   Abc"
+            string s3 = s1.PadLeft(6, '*');   //  "***Abc"
+            Console.WriteLine(s2);
+            Console.WriteLine(s2);
+
         
     }
 }
