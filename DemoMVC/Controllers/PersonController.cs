@@ -1,6 +1,6 @@
 using System.Security.AccessControl;
 using System.Net;
-// ho va ten do duc tue 2121050190
+// ho va ten do duc tue - mssv 2121050190
 using DemoMVC.Models;
 
 
@@ -21,7 +21,7 @@ namespace DemoMVC.Controllers
         public IActionResult Index(Person ps)
         {
             string strOutput = "PersonId: " + ps.PersonId + " - " + "FullName: " + ps.FullName + " - " + "Address: " + ps.Address;
-            ViewBag.infoPerson = strOutput;
+            ViewBag.ThongBao = strOutput;
             return View();
             
         }

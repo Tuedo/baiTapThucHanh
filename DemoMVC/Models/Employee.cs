@@ -6,7 +6,7 @@ namespace DemoMVC.Models
     {
         
         public string EmployeeID{ get; set; }
-        public string Age{ get; set; }
+        public int Age{ get; set; }
 
     
     }
