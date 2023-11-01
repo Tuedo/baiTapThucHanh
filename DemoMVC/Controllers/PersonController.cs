@@ -1,6 +1,8 @@
+using System.Security.AccessControl;
 using System.Net;
-// Ho Va Ten :Do Duc Tue || Ma Sinh Vien : 2121050190
+// ho va ten do duc tue 2121050190
 using DemoMVC.Models;
+
 
 
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +20,7 @@ namespace DemoMVC.Controllers
 
         public IActionResult Index(Person ps)
         {
-            string strOutput = "Hello " + ps.PersonId + " - " + ps.FullName + " - " + ps.Address;
+            string strOutput = "PersonId: " + ps.PersonId + " - " + "FullName: " + ps.FullName + " - " + "Address: " + ps.Address;
             ViewBag.infoPerson = strOutput;
             return View();
             

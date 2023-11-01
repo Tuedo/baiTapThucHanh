@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DemoMVC.Models;
-
+// 2121050190 ho va ten do duc tue
 namespace DemoMVC.Controllers;
 
 public class HomeController : Controller
@@ -22,10 +22,11 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Demo()
+    public string Demo()
     {
-        return View();
+        return "hhh";
     }
+    
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
