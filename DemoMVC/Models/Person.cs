@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace DemoMVC.Models
 // ho va ten do duc tue 2121050190
 {
-    [Table("Persons")]
+    [Table("Person")]
     public class Person 
     {
         [Key]

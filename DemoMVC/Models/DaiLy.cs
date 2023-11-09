@@ -1,4 +1,7 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+using DemoMVC.Models;
 namespace DemoMVC.Models
 // ho va ten : do duc tue
 {
