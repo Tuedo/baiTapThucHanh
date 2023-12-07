@@ -1,14 +1,21 @@
-using Microsoft.EntityFrameworkCore;
-using DemoMVC.Models;
-namespace DemoMVC.Data
+  using Microsoft.EntityFrameworkCore;
+    using DemoMVC.Models;
+    namespace DemoMVC.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext 
     {
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext > options) : base(options)
         {}
+        
         public DbSet<Person> Person {get; set;}
-        public DbSet<DemoMVC.Models.Student> Student { get; set; } = default!;
+        public DbSet<DemoMVC.Models.Faculty> Faculty { get; set; } = default!;
+
+        public DbSet<Student> Student {get; set;}
+       
         
         
+       
+        
+
         }
 }

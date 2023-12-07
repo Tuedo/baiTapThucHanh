@@ -6,9 +6,10 @@
     <title>@ViewData["Title"] - DemoMVC</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/w3.css" asp-append-version="true" />
-
     <link rel="stylesheet" href="~/DemoMVC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/w3.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -27,14 +28,45 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Demo" asp-action="Index">Demo</a>
-                        </li><li class="nav-item">
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Student" asp-action="Index">Student</a>
                         </li>
-                        </li><li class="nav-item">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Faculty" asp-action="Index">Faculty</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Index">Employee</a>
+                        </li> 
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="PhuongTrinhB1" asp-action="Index">PhuongTrinhB1</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="PhuongTrinhB2" asp-action="Index">PhuongTrinhB2</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Person" asp-action="Index">Person</a>
                         </li>
+
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="HeThongPhanPhoi" asp-action="Index">HTTP</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="DaiLy" asp-action="Index">DaiLy</a>
+                        </li> *@
+
+
                     </ul>
                 </div>
             </div>
